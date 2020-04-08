@@ -60,5 +60,5 @@ tests:
         subPath: "subdir/traefik"
     asserts:
       - equal:
-          path: spec.template.spec.containers[0].volumeMounts[0].subPath
+          path: spec.template.spec.containers[0].volumeMounts
           value: "subdir/traefik"
