@@ -89,6 +89,9 @@ spec:
         volumeMounts:
           - name: data
             mountPath: {{ .Values.persistence.path }}
+            {{- if .Values.persistence.subpath -}}
+            subPath: {{ .Values.persistence.subpath }}
+            {{- end }}
           {{- range .Values.volumes }}
           - name: {{ .name }}
             mountPath: {{ .mountPath }}
