@@ -34,3 +34,5 @@ deploy:
     local_dir: repo
     skip_cleanup: true
     keep_history: true
+    on:
+      branch: dev
