@@ -3,7 +3,30 @@ entries:
   traefik:
   - apiVersion: v1
     appVersion: 2.2.0
-    created: "2020-04-07T15:19:03.60314903Z"
+    created: "2020-04-08T14:54:52.366178076Z"
+    description: A Traefik based Kubernetes ingress controller
+    digest: 52e362e92ed8c74868234af60c233f5fdfe5658fdb59a0f49eb15f80562ed379
+    home: https://traefik.io/
+    icon: http://traefik.io/traefik.logo.png
+    keywords:
+    - traefik
+    - ingress
+    maintainers:
+    - email: emile@vauge.com
+      name: emilevauge
+    - email: daniel.tomcej@gmail.com
+      name: dtomcej
+    - email: ludovic@containo.us
+      name: ldez
+    name: traefik
+    sources:
+    - https://github.com/containous/traefik
+    urls:
+    - https://zawiw.github.io/traefik-helm-chart/traefik-8.0.2.tgz
+    version: 8.0.2
+  - apiVersion: v1
+    appVersion: 2.2.0
+    created: "2020-04-08T14:54:52.365152618Z"
     description: A Traefik based Kubernetes ingress controller
     digest: 74851720eaa2e0024369ad9f6e0955d705bb21f168111fdf2b9233225907e50b
     home: https://traefik.io/
@@ -22,11 +45,11 @@ entries:
     sources:
     - https://github.com/containous/traefik
     urls:
-    - https://containous.github.io/traefik-helm-chart/traefik-8.0.0.tgz
+    - https://zawiw.github.io/traefik-helm-chart/traefik-8.0.0.tgz
     version: 8.0.0
   - apiVersion: v1
     appVersion: 2.2.0
-    created: "2020-04-07T15:19:03.602293987Z"
+    created: "2020-04-08T14:54:52.364140887Z"
     description: A Traefik based Kubernetes ingress controller
     digest: 24cb092bacffd4dfad3403edf731eb3eceec0ca443c4bb7206a65b665030ed3f
     home: https://traefik.io/
@@ -45,11 +68,11 @@ entries:
     sources:
     - https://github.com/containous/traefik
     urls:
-    - https://containous.github.io/traefik-helm-chart/traefik-7.2.1.tgz
+    - https://zawiw.github.io/traefik-helm-chart/traefik-7.2.1.tgz
     version: 7.2.1
   - apiVersion: v1
     appVersion: 2.2.0
-    created: "2020-04-07T15:19:03.601436805Z"
+    created: "2020-04-08T14:54:52.363170563Z"
     description: A Traefik based Kubernetes ingress controller
     digest: 411bfa5a984ee6c987aa9547277ff6bc9e708345f3106b304c5f115370ef35ef
     home: https://traefik.io/
@@ -68,11 +91,11 @@ entries:
     sources:
     - https://github.com/containous/traefik
     urls:
-    - https://containous.github.io/traefik-helm-chart/traefik-7.2.0.tgz
+    - https://zawiw.github.io/traefik-helm-chart/traefik-7.2.0.tgz
     version: 7.2.0
   - apiVersion: v2
     appVersion: 2.2.0
-    created: "2020-04-07T15:19:03.600519935Z"
+    created: "2020-04-08T14:54:52.362176905Z"
     description: A Traefik based Kubernetes ingress controller
     digest: d1bab7dc4fd5a7d165b563090a1d94edb652a817dffded14deb7ea895c7aa563
     home: https://traefik.io/
@@ -91,11 +114,11 @@ entries:
     sources:
     - https://github.com/containous/traefik
     urls:
-    - https://containous.github.io/traefik-helm-chart/traefik-7.1.0.tgz
+    - https://zawiw.github.io/traefik-helm-chart/traefik-7.1.0.tgz
     version: 7.1.0
   - apiVersion: v2
     appVersion: 2.2.0
-    created: "2020-04-07T15:19:03.599628185Z"
+    created: "2020-04-08T14:54:52.360035041Z"
     description: A Traefik based Kubernetes ingress controller
     digest: b6c5f0e1112970fc4817389c8261b3a1903433c1ed04f8a4a2fc0c72850c1dd2
     home: https://traefik.io/
@@ -114,11 +137,11 @@ entries:
     sources:
     - https://github.com/containous/traefik
     urls:
-    - https://containous.github.io/traefik-helm-chart/traefik-7.0.0.tgz
+    - https://zawiw.github.io/traefik-helm-chart/traefik-7.0.0.tgz
     version: 7.0.0
   - apiVersion: v2
     appVersion: 2.2.0
-    created: "2020-04-07T15:19:03.597766601Z"
+    created: "2020-04-08T14:54:52.357597156Z"
     description: A Traefik based Kubernetes ingress controller
     digest: 8da41502ca95540674f195867810bba24b56f27d2c3f927fab1d5720a30bcb72
     home: https://traefik.io/
@@ -137,11 +160,11 @@ entries:
     sources:
     - https://github.com/containous/traefik
     urls:
-    - https://containous.github.io/traefik-helm-chart/traefik-6.4.0.tgz
+    - https://zawiw.github.io/traefik-helm-chart/traefik-6.4.0.tgz
     version: 6.4.0
   - apiVersion: v2
     appVersion: 2.2.0
-    created: "2020-04-07T15:19:03.595659748Z"
+    created: "2020-04-08T14:54:52.356495815Z"
     description: A Traefik based Kubernetes ingress controller
     digest: 91b7d63da3c4b72b9d950a40e01a560f808df8f7fb4857c8f02cfd6d58367a31
     home: https://traefik.io/
@@ -160,11 +183,11 @@ entries:
     sources:
     - https://github.com/containous/traefik
     urls:
-    - https://containous.github.io/traefik-helm-chart/traefik-6.3.0.tgz
+    - https://zawiw.github.io/traefik-helm-chart/traefik-6.3.0.tgz
     version: 6.3.0
   - apiVersion: v2
     appVersion: 2.2.0
-    created: "2020-04-07T15:19:03.594341097Z"
+    created: "2020-04-08T14:54:52.355631306Z"
     description: A Traefik based Kubernetes ingress controller
     digest: d7e88a15ffb1880ddd96cccf8fd2edf28749b18ef3502cc3fe81c2cf4dc315d6
     home: https://traefik.io/
@@ -183,11 +206,11 @@ entries:
     sources:
     - https://github.com/containous/traefik
     urls:
-    - https://containous.github.io/traefik-helm-chart/traefik-6.2.0.tgz
+    - https://zawiw.github.io/traefik-helm-chart/traefik-6.2.0.tgz
     version: 6.2.0
   - apiVersion: v2
     appVersion: 2.1.4
-    created: "2020-04-07T15:19:03.593464444Z"
+    created: "2020-04-08T14:54:52.354734167Z"
     description: A Traefik based Kubernetes ingress controller
     digest: 5d76bbda1a5a82f4d9a7b0d4877bc1ec6465a53c416ef0b1d8d7da38e1ac842c
     home: https://traefik.io/
@@ -206,11 +229,11 @@ entries:
     sources:
     - https://github.com/containous/traefik
     urls:
-    - https://containous.github.io/traefik-helm-chart/traefik-6.1.1.tgz
+    - https://zawiw.github.io/traefik-helm-chart/traefik-6.1.1.tgz
     version: 6.1.1
   - apiVersion: v2
     appVersion: 2.1.3
-    created: "2020-04-07T15:19:03.592577343Z"
+    created: "2020-04-08T14:54:52.353913475Z"
     description: A Traefik based Kubernetes ingress controller
     digest: f90e45138f25eb8054780325c1f662f3fdbe24d2559afdcd1a7ce1c6e1aa8512
     home: https://traefik.io/
@@ -229,11 +252,11 @@ entries:
     sources:
     - https://github.com/containous/traefik
     urls:
-    - https://containous.github.io/traefik-helm-chart/traefik-6.1.0.tgz
+    - https://zawiw.github.io/traefik-helm-chart/traefik-6.1.0.tgz
     version: 6.1.0
   - apiVersion: v2
     appVersion: 2.1.3
-    created: "2020-04-07T15:19:03.591715671Z"
+    created: "2020-04-08T14:54:52.353052636Z"
     description: A Traefik based Kubernetes ingress controller
     digest: 36461cd80af33412fa6e98b941b7b83310e9f95c318554027883b131c3a93258
     home: https://traefik.io/
@@ -252,11 +275,11 @@ entries:
     sources:
     - https://github.com/containous/traefik
     urls:
-    - https://containous.github.io/traefik-helm-chart/traefik-6.0.2.tgz
+    - https://zawiw.github.io/traefik-helm-chart/traefik-6.0.2.tgz
     version: 6.0.2
   - apiVersion: v2
     appVersion: 2.1.3
-    created: "2020-04-07T15:19:03.590830559Z"
+    created: "2020-04-08T14:54:52.352244662Z"
     description: A Traefik based Kubernetes ingress controller
     digest: 467603d51db6e6d2fb54110ea913248f0ade03fbe3ed3e9f09f95e014ca4d8e2
     home: https://traefik.io/
@@ -275,11 +298,11 @@ entries:
     sources:
     - https://github.com/containous/traefik
     urls:
-    - https://containous.github.io/traefik-helm-chart/traefik-6.0.0.tgz
+    - https://zawiw.github.io/traefik-helm-chart/traefik-6.0.0.tgz
     version: 6.0.0
   - apiVersion: v2
     appVersion: 2.1.3
-    created: "2020-04-07T15:19:03.589954735Z"
+    created: "2020-04-08T14:54:52.351422999Z"
     description: A Traefik based Kubernetes ingress controller
     digest: 97e9777d9b598dc8bc777da74e05a8813748ee2d16a3679b5f89f5ca50e0055c
     home: https://traefik.io/
@@ -298,11 +321,11 @@ entries:
     sources:
     - https://github.com/containous/traefik
     urls:
-    - https://containous.github.io/traefik-helm-chart/traefik-5.6.0.tgz
+    - https://zawiw.github.io/traefik-helm-chart/traefik-5.6.0.tgz
     version: 5.6.0
   - apiVersion: v2
     appVersion: 2.1.3
-    created: "2020-04-07T15:19:03.589069022Z"
+    created: "2020-04-08T14:54:52.350617466Z"
     description: A Traefik based Kubernetes ingress controller
     digest: 7d04d1264dee8d581a627db64a7e4a7e7f05a67354b8969e82cae0e70706ff04
     home: https://traefik.io/
@@ -321,11 +344,11 @@ entries:
     sources:
     - https://github.com/containous/traefik
     urls:
-    - https://containous.github.io/traefik-helm-chart/traefik-5.5.0.tgz
+    - https://zawiw.github.io/traefik-helm-chart/traefik-5.5.0.tgz
     version: 5.5.0
   - apiVersion: v2
     appVersion: 2.1.3
-    created: "2020-04-07T15:19:03.588123646Z"
+    created: "2020-04-08T14:54:52.349802686Z"
     description: A Traefik based Kubernetes ingress controller
     digest: 4117d280cb6836542c11aa2da3a64eaaa6b61b322be72cab9d45b9acd8309039
     home: https://traefik.io/
@@ -344,11 +367,11 @@ entries:
     sources:
     - https://github.com/containous/traefik
     urls:
-    - https://containous.github.io/traefik-helm-chart/traefik-5.3.3.tgz
+    - https://zawiw.github.io/traefik-helm-chart/traefik-5.3.3.tgz
     version: 5.3.3
   - apiVersion: v2
     appVersion: 2.1.3
-    created: "2020-04-07T15:19:03.587248828Z"
+    created: "2020-04-08T14:54:52.348986393Z"
     description: A Traefik based Kubernetes ingress controller
     digest: 79ae37f191a7f5d5f1a49b8d94cea3389d43d660f360a0384a9dcd9c492550d2
     home: https://traefik.io/
@@ -367,11 +390,11 @@ entries:
     sources:
     - https://github.com/containous/traefik
     urls:
-    - https://containous.github.io/traefik-helm-chart/traefik-5.3.2.tgz
+    - https://zawiw.github.io/traefik-helm-chart/traefik-5.3.2.tgz
     version: 5.3.2
   - apiVersion: v2
     appVersion: 2.1.3
-    created: "2020-04-07T15:19:03.586464587Z"
+    created: "2020-04-08T14:54:52.348147353Z"
     description: A Traefik based Kubernetes ingress controller
     digest: e6693a12aa03b74ca967e03124ca73f16b8b0992d0ebb93864a8537893bd84a6
     home: https://traefik.io/
@@ -390,11 +413,11 @@ entries:
     sources:
     - https://github.com/containous/traefik
     urls:
-    - https://containous.github.io/traefik-helm-chart/traefik-5.3.1.tgz
+    - https://zawiw.github.io/traefik-helm-chart/traefik-5.3.1.tgz
     version: 5.3.1
   - apiVersion: v2
     appVersion: 2.1.3
-    created: "2020-04-07T15:19:03.585614987Z"
+    created: "2020-04-08T14:54:52.346492889Z"
     description: A Traefik based Kubernetes ingress controller
     digest: 204781ebcc04418782da29956c35293d0e90baf26a83938f1687e73914813948
     home: https://traefik.io/
@@ -413,11 +436,11 @@ entries:
     sources:
     - https://github.com/containous/traefik
     urls:
-    - https://containous.github.io/traefik-helm-chart/traefik-5.3.0.tgz
+    - https://zawiw.github.io/traefik-helm-chart/traefik-5.3.0.tgz
     version: 5.3.0
   - apiVersion: v2
     appVersion: 2.1.3
-    created: "2020-04-07T15:19:03.58275871Z"
+    created: "2020-04-08T14:54:52.344541757Z"
     description: A Traefik based Kubernetes ingress controller
     digest: d0e2af56eae8edc06de57e436fa36d38722c62ab2e62cd91d7e8b91d01189360
     home: https://traefik.io/
@@ -436,11 +459,11 @@ entries:
     sources:
     - https://github.com/containous/traefik
     urls:
-    - https://containous.github.io/traefik-helm-chart/traefik-5.2.1.tgz
+    - https://zawiw.github.io/traefik-helm-chart/traefik-5.2.1.tgz
     version: 5.2.1
   - apiVersion: v2
     appVersion: 2.1.3
-    created: "2020-04-07T15:19:03.581318944Z"
+    created: "2020-04-08T14:54:52.34336354Z"
     description: A Traefik based Kubernetes ingress controller
     digest: 89787f456584e0c305e084022f80ce0522f44f60b6cc0ccfc4c6db645874ff60
     home: https://traefik.io/
@@ -459,11 +482,11 @@ entries:
     sources:
     - https://github.com/containous/traefik
     urls:
-    - https://containous.github.io/traefik-helm-chart/traefik-5.2.0.tgz
+    - https://zawiw.github.io/traefik-helm-chart/traefik-5.2.0.tgz
     version: 5.2.0
   - apiVersion: v2
     appVersion: 2.1.3
-    created: "2020-04-07T15:19:03.580420649Z"
+    created: "2020-04-08T14:54:52.342544122Z"
     description: A Traefik based Kubernetes ingress controller
     digest: 1159d2842ec56483fb40893bc3be3607ac059c0d3f7f6d744843cc55462f57ba
     home: https://traefik.io/
@@ -482,11 +505,11 @@ entries:
     sources:
     - https://github.com/containous/traefik
     urls:
-    - https://containous.github.io/traefik-helm-chart/traefik-5.1.0.tgz
+    - https://zawiw.github.io/traefik-helm-chart/traefik-5.1.0.tgz
     version: 5.1.0
   - apiVersion: v2
     appVersion: 2.1.3
-    created: "2020-04-07T15:19:03.57957883Z"
+    created: "2020-04-08T14:54:52.341698498Z"
     description: A Traefik based Kubernetes ingress controller
     digest: 09b8a05223fabad2e16f29d55b743f465bbed8431459a4a3e38bdec8e8a4d107
     home: https://traefik.io/
@@ -505,11 +528,11 @@ entries:
     sources:
     - https://github.com/containous/traefik
     urls:
-    - https://containous.github.io/traefik-helm-chart/traefik-5.0.0.tgz
+    - https://zawiw.github.io/traefik-helm-chart/traefik-5.0.0.tgz
     version: 5.0.0
   - apiVersion: v2
     appVersion: 2.1.3
-    created: "2020-04-07T15:19:03.578712843Z"
+    created: "2020-04-08T14:54:52.34083876Z"
     description: A Traefik based Kubernetes ingress controller
     digest: 579995dc7087f84b8407e2ccdb4f2ce2831da42e4eb235426563ecd006ed6884
     home: https://traefik.io/
@@ -528,11 +551,11 @@ entries:
     sources:
     - https://github.com/containous/traefik
     urls:
-    - https://containous.github.io/traefik-helm-chart/traefik-4.1.3.tgz
+    - https://zawiw.github.io/traefik-helm-chart/traefik-4.1.3.tgz
     version: 4.1.3
   - apiVersion: v2
     appVersion: 2.1.3
-    created: "2020-04-07T15:19:03.577860567Z"
+    created: "2020-04-08T14:54:52.34002614Z"
     description: A Traefik based Kubernetes ingress controller
     digest: bcc5545963823dd92485973350da16d071ebedb78e508552ced6f5cf46dc7923
     home: https://traefik.io/
@@ -551,11 +574,11 @@ entries:
     sources:
     - https://github.com/containous/traefik
     urls:
-    - https://containous.github.io/traefik-helm-chart/traefik-4.1.2.tgz
+    - https://zawiw.github.io/traefik-helm-chart/traefik-4.1.2.tgz
     version: 4.1.2
   - apiVersion: v2
     appVersion: 2.1.3
-    created: "2020-04-07T15:19:03.576822074Z"
+    created: "2020-04-08T14:54:52.339209014Z"
     description: A Traefik based Kubernetes ingress controller
     digest: 23a13057b65123029a4f71cd8ac1eb3eb6ac8c849cd39d2c137efa69de78a14f
     home: https://traefik.io/
@@ -574,11 +597,11 @@ entries:
     sources:
     - https://github.com/containous/traefik
     urls:
-    - https://containous.github.io/traefik-helm-chart/traefik-4.1.1.tgz
+    - https://zawiw.github.io/traefik-helm-chart/traefik-4.1.1.tgz
     version: 4.1.1
   - apiVersion: v2
     appVersion: 2.1.3
-    created: "2020-04-07T15:19:03.576054888Z"
+    created: "2020-04-08T14:54:52.338443087Z"
     description: A Traefik based Kubernetes ingress controller
     digest: 7172e5ef2e904523e92e0bc5c34d87b4fbd2648dc38386deffdf52ff426d6f06
     home: https://traefik.io/
@@ -597,11 +620,11 @@ entries:
     sources:
     - https://github.com/containous/traefik
     urls:
-    - https://containous.github.io/traefik-helm-chart/traefik-4.1.0.tgz
+    - https://zawiw.github.io/traefik-helm-chart/traefik-4.1.0.tgz
     version: 4.1.0
   - apiVersion: v2
     appVersion: 2.1.3
-    created: "2020-04-07T15:19:03.575369605Z"
+    created: "2020-04-08T14:54:52.337760032Z"
     description: A Traefik based Kubernetes ingress controller
     digest: 2acd1bcc8367c919559e818d6a8190b7eb0fde9121cc4672ba7eb812d4175ada
     home: https://traefik.io/
@@ -620,11 +643,11 @@ entries:
     sources:
     - https://github.com/containous/traefik
     urls:
-    - https://containous.github.io/traefik-helm-chart/traefik-4.0.0.tgz
+    - https://zawiw.github.io/traefik-helm-chart/traefik-4.0.0.tgz
     version: 4.0.0
   - apiVersion: v1
     appVersion: 2.1.3
-    created: "2020-04-07T15:19:03.574634967Z"
+    created: "2020-04-08T14:54:52.337019882Z"
     description: A Traefik based Kubernetes ingress controller
     digest: 41525044f4673b5484cdb12863aec4c9363d0989a5337dbc5cfe591903b762d2
     home: https://traefik.io/
@@ -643,11 +666,11 @@ entries:
     sources:
     - https://github.com/containous/traefik
     urls:
-    - https://containous.github.io/traefik-helm-chart/traefik-3.5.0.tgz
+    - https://zawiw.github.io/traefik-helm-chart/traefik-3.5.0.tgz
     version: 3.5.0
   - apiVersion: v1
     appVersion: 2.1.3
-    created: "2020-04-07T15:19:03.573885264Z"
+    created: "2020-04-08T14:54:52.336282404Z"
     description: A Traefik based Kubernetes ingress controller
     digest: 85aeb1039e2e3131e15bb132062ebd9834b9e299fa461aad51c10fb9a6d0fc86
     home: https://traefik.io/
@@ -666,6 +689,6 @@ entries:
     sources:
     - https://github.com/containous/traefik
     urls:
-    - https://containous.github.io/traefik-helm-chart/traefik-3.4.0.tgz
+    - https://zawiw.github.io/traefik-helm-chart/traefik-3.4.0.tgz
     version: 3.4.0
-generated: "2020-04-07T15:19:03.572951865Z"
+generated: "2020-04-08T14:54:52.335413927Z"
